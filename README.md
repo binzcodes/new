@@ -1,8 +1,8 @@
 # A Dev Env as Code
 
-A remote reproducible, ephemeral, sandboxed and completely diposable [nix](https://nixos.org/manual/nix/stable/) based development environment running on [Gitpod](https://www.gitpod.io/) and secured with [Tailscale](https://tailscale.com).
+A remote reproducible, ephemeral, sandboxed and completely diposable [nix](https://nixos.org/manual/nix/stable/) based development environment running on [Gitpod](https://www.gitpod.io/), secured with [Tailscale](https://tailscale.com) and customised with [dotfiles](https://github.com/binzcodes/dotfiles).
 
-Accessible a [rbi.nz/new](https://rbi.nz/new)
+Accessible at [rbi.nz/new](https://rbi.nz/new).
 
 Based on [this awesome article](https://ghuntley.com/slash-new/).
 
