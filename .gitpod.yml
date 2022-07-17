@@ -1,0 +1,19 @@
+tasks:
+  - name: nix
+    before: >
+      mkdir -p /home/gitpod/.config/nix &&
+      echo 'sandbox = false' >> /home/gitpod/.config/nix/nix.conf
+    command: |
+      direnv allow
+  - name: tailscaled
+    command: |
+      sudo tailscaled
+  - name: tailscale
+    command: |
+      sudo -E tailscale up --authkey "${TAILSCALE_AUTHKEY}"
+      tailscale ip
+    openMode: split-right
+
+vscode:
+  extensions:
+    - bbenoist.Nix
