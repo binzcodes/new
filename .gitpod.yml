@@ -13,6 +13,8 @@ tasks:
       sudo -E tailscale up --authkey "${TAILSCALE_AUTHKEY}"
       tailscale ip
     openMode: split-right
+  - name: htop
+    command: htop
 
 vscode:
   extensions:
