@@ -1,4 +1,4 @@
-# A Dev Env as Code
+# Dev Env as Code
 
 A remote reproducible, ephemeral, sandboxed and completely diposable [nix](https://nixos.org/manual/nix/stable/) based development environment running on [Gitpod](https://www.gitpod.io/), secured with [Tailscale](https://tailscale.com) and customised with [dotfiles](https://github.com/binzcodes/dotfiles).
 
@@ -15,7 +15,7 @@ Use this repo to:
 - Access a package registry
 - Complete a coding interview
 
-## Next Steps
+## Run
 
 Go to [rbi.nz/new](https://rbi.nz/new).
 
